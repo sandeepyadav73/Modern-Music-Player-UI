@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <div class="music-player">
+        
+        <div class="album-cover">
+            <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bXVzaWMlMjBhbGJ1bXxlbnwwfHwwfHx8MA%3D%3D" alt="Album Art">
+        </div>
+
+        <div class="song-info">
+            <h2>Lost in Sound</h2>
+            <p>Synthwave Dreams</p>
+        </div>
+
+        <div class="controls">
+            <button class="control-btn" id="prev-btn">
+                <i class="fas fa-backward-step"></i>
+            </button>
+            <button class="control-btn play-pause-btn" id="play-pause-btn">
+                <i class="fas fa-play" id="play-icon"></i>
+            </button>
+            <button class="control-btn" id="next-btn">
+                <i class="fas fa-forward-step"></i>
+            </button>
+        </div>
+
+        <div class="progress-section">
+            <div class="progress-bar">
+                <div class="progress" style="width: 30%;"></div>
+            </div>
+            <div class="time-display">
+                <span class="time-start">1:12</span>
+                <span class="time-end">3:45</span>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
