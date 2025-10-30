@@ -2,7 +2,7 @@
 
 ![Music Player UI Screenshot](![20251030-1118-49 9580852](https://github.com/user-attachments/assets/7b9d6fb0-ec9c-4957-a201-629cfa590c4d)
 )
-*(Note: Replace this placeholder with an actual screenshot of your deployed UI)*
+
 
 ## 🎧 Project Overview
 
@@ -44,16 +44,18 @@ This project is a static frontend application, so there's no complex installatio
 1.  **Clone the repository (or download the files):**
     ```bash
     git clone <your-repo-link-here>
-    cd modern-music-player-ui
+    cd Modern-Music-Player-UI
     ```
-    *(Replace `<your-repo-link-here>` with the actual link if you're hosting this on GitHub/GitLab)*
-
 2.  **Open `index.html`:**
     Simply open the `index.html` file in your preferred web browser. You can drag and drop it into the browser window, or right-click and choose "Open with...".
 
 ## 📁 Project Structure
 
-modern-music-player-ui/ ├── index.html # Main HTML file for the player structure ├── style.css # All CSS styling, including Glassmorphism and animations └── script.js # JavaScript for interactive elements (e.g., Play/Pause toggle) ├── README.md # This file
+modern-music-player-ui/ 
+├── index.html # Main HTML file for the player structure
+├── style.css # All CSS styling, including Glassmorphism and animations 
+└── script.js # JavaScript for interactive elements (e.g., Play/Pause toggle) 
+├── README.md # This file
 
 
 ## 🖼️ Screenshots
@@ -65,7 +67,8 @@ modern-music-player-ui/ ├── index.html # Main HTML file for the player str
 )
 
 ### Mobile View
-![Mobile View of Music Player](https://via.placeholder.com/400x700?text=Mobile+Screenshot)
+![Mobile View of Music Player](![20251030-1122-58 6135864](https://github.com/user-attachments/assets/ab50adec-84f6-4998-8b45-9eea160422ea)
+)
 
 ## 💡 How to Use (Frontend Interaction)
 
@@ -82,6 +85,6 @@ This project is primarily a UI design exercise. However, if you have suggestions
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
-*(Note: Create a `LICENSE` file in your root directory if you haven't already)*
+
 
 ---
